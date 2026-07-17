@@ -1,5 +1,6 @@
+let a = 2;
 console.log(a);
-var a = 2;
-console.log(typeof(a));
-var a = "abc";
-console.log(typeof(a));
+console.log(typeof a);
+
+a = "abc";   // Reassign, don't redeclare
+console.log(typeof a);
