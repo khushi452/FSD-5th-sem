@@ -1,9 +1,9 @@
 //hoistring
 console.log(a);
-var a ;
+let a ;
 a = 2;
 {
-    var a = "2";
+    let a = "2";
     a = 2+ "2";
     console.log(a);
 
