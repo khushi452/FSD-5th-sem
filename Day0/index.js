@@ -1,6 +1,11 @@
-let a = 2;
+//hoistring
 console.log(a);
-console.log(typeof a);
+var a ;
+a = 2;
+{
+    var a = "2";
+    a = 2+ "2";
+    console.log(a);
 
-a = "abc";   // Reassign, don't redeclare
-console.log(typeof a);
+}
+console.log(a);
